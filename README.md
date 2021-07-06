@@ -1,3 +1,4 @@
 # noval-projeto
-Install: Yarn.
-Get started: Yarn start.
+### Install: yarn.
+### Get started: yarn start.
+### Test: yarn test.
