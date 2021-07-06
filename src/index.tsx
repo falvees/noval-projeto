@@ -54,7 +54,7 @@ createServer({
     this.get("/users/:id/:name", (schema, request) => {
       const id = request.params.id
       const name = request.params.name.trim()
-      console.log(name)
+ 
       if(name !== "") {
         return schema.db.users.findBy({name: name})
       } else {
